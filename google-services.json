@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135130752764",
+    "project_id": "liveapp-5e81a",
+    "storage_bucket": "liveapp-5e81a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135130752764:android:3b32ead93310e7be7c5979",
+        "android_client_info": {
+          "package_name": "com.agora.samtan.agorabroadcast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135130752764-lph7jm34pbmpnqs3o0tsv9gr6k0bmdme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR7HzLRcdgbDDarzSVpjibkGqlY-oRUmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135130752764-lph7jm34pbmpnqs3o0tsv9gr6k0bmdme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
