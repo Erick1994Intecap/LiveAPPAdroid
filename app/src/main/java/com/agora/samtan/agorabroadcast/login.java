@@ -29,6 +29,7 @@ public class login extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
         Button acceder = (Button) findViewById(R.id.btnAccederA);
+        Button registro = (Button) findViewById(R.id.btnRegistroA);
 
         acceder.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,7 +52,7 @@ public class login extends AppCompatActivity {
                                         Log.d("TAG", "signInWithEmail:success");
                                         Intent i = new Intent(login.this, MainActivity.class);
                                         startActivity(i);
-                                        login.this.finish();
+                                        //login.this.finish();
 
                                     } else {
                                         // If sign in fails, display a message to the user.
@@ -63,6 +64,14 @@ public class login extends AppCompatActivity {
 
                 }
 
+            }
+        });
+
+        registro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(login.this, Register.class);
+                startActivity(i);
             }
         });
 
